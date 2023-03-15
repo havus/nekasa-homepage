@@ -10,8 +10,16 @@ import {
   faHeart,
   faLaptopCode,
   faArrowCircleRight,
+  faCircleCheck,
+  faCircleNotch,
+  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { faLightbulb, faHandPeace } from "@fortawesome/free-regular-svg-icons";
+
+import {
+  faLightbulb,
+  faHandPeace,
+  faCircle,
+} from "@fortawesome/free-regular-svg-icons";
 
 // This is important, we are going to let Nuxt worry about the CSS
 config.autoAddCss = false;
@@ -29,6 +37,10 @@ library.add(
   faLaptopCode,
   faHandPeace,
   faArrowCircleRight,
+  faCircleCheck,
+  faCircleNotch,
+  faCircle,
+  faChevronRight,
 );
 
 export default defineNuxtPlugin((nuxtApp) => {
