@@ -1,4 +1,5 @@
 // For Nuxt 3
+import { defineNuxtPlugin } from "#app";
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import {
   faBars,
