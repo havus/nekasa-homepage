@@ -10,7 +10,7 @@
         </button>
       </div>
 
-      <div :class="`${open ? 'collapse-show': 'collapse-hide'} w-full flex-grow md:flex md:items-center md:w-auto`">
+      <div :class="`${open ? 'collapse-show': 'collapse-hide md:collapse-show'} w-full flex-grow md:flex md:items-center md:w-auto`">
         <div class="text-sm md:flex-grow first:mt-3 md:first:mt-0 md:flex justify-center">
           <NuxtLink
             v-for="(link, i) in links" :key="i"
