@@ -9,7 +9,10 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Montserrat: {
-        wght: [300, 400, 500, 600],
+        wght: [300, 400, 500, 600, 700],
+      },
+      PlayfairDisplay: {
+        ital: [400],
       },
     },
   },

@@ -16,8 +16,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+      borderWidth: {
+        1: "1px",
       },
       colors: {
         nekasa: {
@@ -28,6 +28,14 @@ module.exports = {
           900: "#374151",
           // 900: "#373D45",
         },
+        "nekasa-orange": {
+          100: "#FFE4DB",
+          300: "#F86D3F",
+        },
+      },
+      fontFamily: {
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        "playfair-display": ["Playfair-Display"],
       },
       spacing: {
         112: "28rem",

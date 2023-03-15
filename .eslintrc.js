@@ -13,7 +13,7 @@ module.exports = {
   plugins: [],
   // add your custom rules here
   rules: {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", { trailingComma: "all" }],
     "space-before-function-paren": ["error", "never"],
     semi: ["error", "always"],
     "comma-dangle": ["error", "always-multiline"],
