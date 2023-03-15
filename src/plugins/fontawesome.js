@@ -1,6 +1,5 @@
 // For Nuxt 3
 import { library, config } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
   faBars,
   faPeopleRoof,
@@ -42,6 +41,8 @@ library.add(
   faCircle,
   faChevronRight,
 );
+
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("font-awesome-icon", FontAwesomeIcon);

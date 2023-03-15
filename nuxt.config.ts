@@ -2,6 +2,15 @@
 export default defineNuxtConfig({
   srcDir: 'src',
 
+  build: {
+    transpile: [
+      "@fortawesome/vue-fontawesome",
+      "@fortawesome/fontawesome-svg-core",
+      "@fortawesome/free-solid-svg-icons",
+      "@fortawesome/free-regular-svg-icons",
+    ],
+  },
+  
   css: [
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
@@ -16,9 +25,6 @@ export default defineNuxtConfig({
       },
     },
   },
-
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
 
   modules: [
     '@nuxtjs/tailwindcss',
