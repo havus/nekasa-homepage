@@ -24,7 +24,7 @@
     </div>
 
     <!-- Gain More Experience with Us -->
-    <div class="bg-white py-16">
+    <div class="bg-white py-28">
       <div class="container">
         <div class="grid grid-cols-1 lg:grid-cols-5 justify-items-center gap-7">
           <div class="col-span-3 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-4 w-full order-2 lg:order-1">
