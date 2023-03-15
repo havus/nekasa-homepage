@@ -22,11 +22,9 @@
     </div>
 
     <!-- Contents -->
-    <transition name="fadeHeight" mode="out-in">
-      <div v-if="showChild">
-        <slot />
-      </div>
-    </transition>
+    <div :class="showChild ? 'collapse-show' : 'collapse-hide'">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -54,15 +52,4 @@ export default {
 </script>
 
 <style scoped>
-  .fadeHeight-enter-active,
-  .fadeHeight-leave-active {
-    transition: all 0.2s;
-    max-height: 100vh;
-  }
-
-  .fadeHeight-enter,
-  .fadeHeight-leave-to {
-    opacity: 0;
-    max-height: 0px;
-  }
 </style>

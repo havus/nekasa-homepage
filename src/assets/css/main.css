@@ -31,3 +31,15 @@
     }
   }
 }
+
+.collapse-show {
+  max-height: 100vh;
+  transition: max-height .3s ease-in;
+  overflow: hidden;
+}
+
+.collapse-hide {
+  max-height: 0;
+  transition: max-height .3s ease-out;
+  overflow: hidden;
+}
