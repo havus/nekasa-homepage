@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <img :src="nekasaChipset" class="mt-10 p-5 sm:p-0 max-h-96 mx-auto my-7 lg:my-0 lg:mr-0 lg:max-h-96 order-first lg:order-last animate-pulse" alt="Wadaw chipset">
+        <img :src="nekasaChipset" class="mt-10 p-5 sm:p-0 max-h-96 mx-auto my-7 lg:my-0 lg:mr-0 lg:max-h-96 order-first lg:order-last animate-pulse" alt="Nekasa chipset">
       </div>
     </div>
 

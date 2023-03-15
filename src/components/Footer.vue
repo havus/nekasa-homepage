@@ -5,11 +5,11 @@
   >
     <span class="mb-1">
       &copy;
-      <a href="https://instagram.com/wadaw_project" target="blank" class="font-semibold border-b border-dotted">Wadaw Project</a>
-      Landing Page 2020
+      <a href="https://instagram.com/nekasa_project" target="blank" class="font-semibold border-b border-dotted">Nekasa Project</a>
+      Landing Page 2023
     </span>
     <span>
-      Made with <font-awesome-icon :icon="['fas', 'heart']" color="#FB7373" /> in Balikpapan
+      Made with <font-awesome-icon :icon="['fas', 'heart']" color="#FB7373" /> in Bali
     </span>
   </footer>
 </template>
