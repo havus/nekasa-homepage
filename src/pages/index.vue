@@ -5,15 +5,16 @@
         <div id="main-title" class="text-white max-w-lg">
           <h3 class="text-2xl">
             <span class="font-bold">Nekasa</span> -
-            Playground for creative ideas.
+            Closer Step To Be Better.
           </h3>
 
           <div class="mt-6 w-1/3 h-1 bg-orange-500 rounded-full" />
 
-          <div class="mt-3 text-gray-100 font-extralight animate-scoll-fade-in-out">
+          <div class="mt-3 text-gray-100 font-light animate-scoll-fade-in-out">
             <p>
-              We embracing people in all fields by providing a platform for them to make their ideas happen.
-              Help realize ideas without take their copyright.
+              Build whatever we want, make our business faster and work efficiently.
+              We hope this can be our playground for creative ideas.
+              <span class="font-bold">Let our dream happen!</span>
             </p>
           </div>
         </div>
