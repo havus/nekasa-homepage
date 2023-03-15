@@ -2,12 +2,25 @@
 export default defineNuxtConfig({
   srcDir: 'src',
 
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css',
+  ],
+
+  googleFonts: {
+    families: {
+      Montserrat: {
+        wght: [300, 400, 500, 600],
+      },
+    },
+  },
+
   modules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
   ],
 
   tailwindcss: {
-    configPath: './tailwind.config.ts',
+    configPath: './tailwind.config.js',
     cssPath: '~/assets/css/main.css',
   },
 

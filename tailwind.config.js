@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss/types').Config} */
 
-// const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
+  darkMode: "class",
   mode: "jit",
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -14,7 +15,24 @@ module.exports = {
     "./assets/**/*.css",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        nekasa: {
+          50: "#F6F8FC",
+          600: "#9098A5",
+          700: "#727883",
+          800: "#6D718A",
+          900: "#374151",
+          // 900: "#373D45",
+        },
+      },
+      spacing: {
+        112: "28rem",
+      },
+    },
   },
   variants: {
     extend: {},

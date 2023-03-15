@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <div class="container">
-      <h1 class="bg-slate-600">Hello world</h1>
-    </div>
-  </div>
+  <Html>
+    <Body class="bg-nekasa-50 text-gray-800 antialiased">
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </Body>
+  </Html>
 </template>
