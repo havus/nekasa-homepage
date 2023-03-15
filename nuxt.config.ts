@@ -29,7 +29,23 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    'nuxt-simple-sitemap',
   ],
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+      ],
+    },
+  },
+
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://nekasa.com',
+    }
+  },
 
   tailwindcss: {
     configPath: './tailwind.config.js',
